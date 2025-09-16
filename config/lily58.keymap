@@ -13,14 +13,14 @@
         commandleft: commandleft {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_COMMAND &kp LEFT_ARROW>;
+            bindings = <&kt LEFT_GUI &kp LEFT_ARROW &kt LEFT_GUI>;
             label = "COMMANDLEFT";
         };
 
         commandright: commandright {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_GUI &kp RIGHT_ARROW>;
+            bindings = <&kt LEFT_GUI &kp RIGHT_ARROW &kt LEFT_GUI>;
             label = "COMMANDRIGHT";
         };
     };
