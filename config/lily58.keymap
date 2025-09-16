@@ -59,7 +59,7 @@
             display-name = "Lower";
             bindings = <
 &kp TILDE   &trans        &trans          &trans          &trans           &kp HOME                         &kp HOME       &kp K_PREVIOUS  &kp K_NEXT     &trans           &kp K_MUTE        &kp K_VOLUME_UP
-&kp GRAVE   &trans        &commandleft    &kp UP_ARROW    &commandright    &kp PAGE_UP                      &kp PAGE_UP    &kp LCTRL+LEFT_ARROW    &kp UP_ARROW   &kp LCTRL+RIGHT_ARROW    &kp K_PLAY_PAUSE  &kp K_VOLUME_DOWN
+&kp GRAVE   &trans        &commandleft    &kp UP_ARROW    &commandright    &kp PAGE_UP                      &kp PAGE_UP    &commandleft    &kp UP_ARROW   &commandright    &kp K_PLAY_PAUSE  &kp K_VOLUME_DOWN
 &trans      &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN                    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW       &kp RIGHT_ARROW  &trans            &trans
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1    &trans          &trans           &kp END        &trans    &trans  &kp END        &kp PIPE        &kp SEMICOLON  &kp COLON        &kp BACKSLASH     &kp RS(CAPS)
                                           &trans          &trans           &trans         &trans    &trans  &kp LG(DEL)    &kp LA(TAB)     &kp LC(ESC)
